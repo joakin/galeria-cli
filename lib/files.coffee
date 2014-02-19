@@ -8,6 +8,7 @@
 # Takes a from path, and a to path and an array of {from: '' to: '' dir: ''}
 # objects and copies them
 exports.renameFiles = (from, to, files) ->
+  mkdir '-p', to
   folders = (Object.keys groupBy (getWith 'dir'), files).map (f) ->
     join to, f
   mkdir '-p', folders
