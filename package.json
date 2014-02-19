@@ -1,0 +1,42 @@
+{
+  "name": "galeria",
+  "version": "0.0.0",
+  "description": "Organize your photos",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "compile": "coffee -cm .",
+    "compilew": "coffee -cwm .",
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register",
+    "testw": "mocha -w --reporter spec --compilers coffee:coffee-script/register",
+    "clean": "rm -rf index.js index.map lib/*.js lib/*.map test/*.js test/*.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joakin/galeria"
+  },
+  "keywords": [
+    "photo",
+    "organize",
+    "rename"
+  ],
+  "author": "Joaquin Oltra",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/joakin/galeria/issues"
+  },
+  "homepage": "https://github.com/joakin/galeria",
+  "dependencies": {
+    "shelljs": "~0.2.6",
+    "extractif": "~0.1.2",
+    "async": "~0.2.10",
+    "prelude-ls": "~1.0.3",
+    "allong.es": "~0.14.0",
+    "bluebird": "~1.0.5"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
