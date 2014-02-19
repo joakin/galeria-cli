@@ -24,7 +24,7 @@ the destination performing the following tasks:
 
 * Keep normal folder names inside the year folder as categories  
   ```
-  India/103_PANA/P00098098.JPG    -> 2013/India/2013-10-01-6-16-24-P00098098.JPG
-  Alicante/P001235234.JPG -> 2013/Alicante/2013-12-04-12-19-30-P001235234.JPG
+  India/103_PANA/P00098098.JPG -> 2013/India/2013-10-01-6-16-24-P00098098.JPG
+  Alicante/P001235234.JPG      -> 2013/Alicante/2013-12-04-12-19-30-P001235234.JPG
   ```
 
