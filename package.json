@@ -20,14 +20,17 @@
   "keywords": [
     "photo",
     "organize",
-    "rename"
+    "rename",
+    "cli"
   ],
+  "preferGlobal": true,
+  "bin": { "galeria": "bin/index" },
   "author": "Joaquin Oltra",
   "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/joakin/galeria/issues"
   },
-  "homepage": "https://github.com/joakin/galeria",
+  "homepage": "https://github.com/joakin/galeria-cli",
   "dependencies": {
     "shelljs": "~0.2.6",
     "extractif": "~0.1.2",
