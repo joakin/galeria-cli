@@ -1,9 +1,9 @@
 
 {join} = require('path')
 
-{cp}      = require 'shelljs'
-{groupBy} = require 'prelude-ls'
-{getWith} = require('allong.es').allong.es
+{cp, mkdir} = require 'shelljs'
+{groupBy}   = require 'prelude-ls'
+{getWith}   = require('allong.es').allong.es
 
 # Takes a from path, and a to path and an array of {from: '' to: '' dir: ''}
 # objects and copies them
