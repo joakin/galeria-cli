@@ -5,11 +5,12 @@ galeria
 Galeria is a small cli to help you organize photos, for those of us who keep
 the photos in normal folders.
 
-[Usage][#Usage]
-[usage](#usage)
+* [Install](#install)
+* [What does it do?](#organize-photos)
+* [Example](#example)
 
-Usage
------
+Install
+-------
 
 Install galeria globally with npm.
 
