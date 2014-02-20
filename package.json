@@ -1,6 +1,6 @@
 {
   "name": "galeria",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Organize your photos",
   "main": "index.js",
   "directories": {
@@ -41,7 +41,8 @@
     "bluebird": "~1.0.5",
     "commander": "~2.1.0",
     "nomnom": "~1.6.2",
-    "inquirer": "~0.4.0"
+    "inquirer": "~0.4.0",
+    "colors": "~0.6.2"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1"
