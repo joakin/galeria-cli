@@ -24,7 +24,9 @@
     "cli"
   ],
   "preferGlobal": true,
-  "bin": { "galeria": "bin/index" },
+  "bin": {
+    "galeria": "bin/index"
+  },
   "author": "Joaquin Oltra",
   "license": "GPLv3",
   "bugs": {
@@ -34,10 +36,12 @@
   "dependencies": {
     "shelljs": "~0.2.6",
     "extractif": "~0.1.2",
-    "async": "~0.2.10",
     "prelude-ls": "~1.0.3",
     "allong.es": "~0.14.0",
-    "bluebird": "~1.0.5"
+    "bluebird": "~1.0.5",
+    "commander": "~2.1.0",
+    "nomnom": "~1.6.2",
+    "inquirer": "~0.4.0"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1"
