@@ -58,9 +58,8 @@ $ tree ~/Desktop/organized-photos
 Organize photos
 ---------------
 
-Using this cli you will be able to organize your photos so that sorting by name
-gets you the actual order of when the photos where taken and it will give you
-a consistent folder structure.
+Using this cli you will be able to organize your photos with consistent folder
+structure and naming convention.
 
 When you use galeria over a folder (of folders) of photos, it will copy it to
 the destination performing the following tasks:
