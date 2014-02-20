@@ -6,6 +6,7 @@ Galeria is a small cli to help you organize photos, for those of us who keep
 the photos in normal folders.
 
 [Usage][#Usage]
+[usage](#usage)
 
 Usage
 -----
