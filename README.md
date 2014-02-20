@@ -64,7 +64,7 @@ the destination performing the following tasks:
   Alicante/P001235234.JPG      -> 2013/Alicante/2013-12-04-12-19-30-P001235234.JPG
   ```
 
-#### Example:
+#### Transformation example:
 
 So from this folder of photos:
 ```
