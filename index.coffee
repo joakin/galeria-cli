@@ -93,6 +93,6 @@ organize = (opts) ->
         process.exit 0
 
   .catch (e) ->
-    console.error 'ERROR:'.red, e.red
+    console.error 'ERROR:'.red, e
     process.exit 1
 

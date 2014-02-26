@@ -9,7 +9,10 @@ exports.valid = (img) ->
   extensions.indexOf(img.ext.toLowerCase()) isnt -1
 
 # Returns the promise of a img map filled with exif data
-exports.exif = (path) -> extractif("\"#{path}\"")
+exports.exif = (path) ->
+  extractif("\"#{path}\"").catch (e) ->
+    console.error "Couldn't read #{path} to get the exif tags.".red
+    throw e
 
 # Returns the exif date of the tags object
 exports.exifDate = (tags) ->
